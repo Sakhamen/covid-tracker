@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.header__image {
+  width: 22.5rem;
+}
+
+.header__dropdown {
+  background-color: white;
+}
+
+
+@media (max-width: 48.125rem) {
+  .header__image {
+    width: 15rem;
+  }
+}
