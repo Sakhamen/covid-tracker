@@ -46,7 +46,8 @@ function App() {
     const longitude = (data.countryInfo) ? data.countryInfo.long : -40.4796;
 
     setCountryInfo(data);
-    setMapCenter({ lat: latitude, lng: longitude });
+    // setMapCenter({ lat: latitude, lng: longitude });
+    setMapCenter([latitude,longitude]);
     setMapZoom(4);
   };
 
